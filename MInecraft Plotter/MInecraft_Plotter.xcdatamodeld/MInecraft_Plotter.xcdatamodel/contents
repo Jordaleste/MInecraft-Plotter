@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="WayPoint" representedClassName=".WayPoint" syncable="YES" codeGenerationType="class">
+        <attribute name="comment" attributeType="String"/>
+        <attribute name="type" attributeType="String"/>
+        <attribute name="x" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="y" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="z" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="WayPoint" positionX="-63" positionY="-18" width="128" height="118"/>
+    </elements>
+</model>
