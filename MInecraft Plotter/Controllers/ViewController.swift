@@ -260,7 +260,7 @@ extension ViewController: DataControllerDelegate {
             
             guard let typeString = waypoint.type, let type = WayPointType(rawValue: typeString) else { fatalError("Unable to convert type")}
             
-            plot(waypoint: waypoint, type: type)
+            plot(waypoint: waypoint, type: type, scale: scale)
             
             
             
